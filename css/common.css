@@ -1,0 +1,396 @@
+@media (min-width: 768px) {
+  .header .navbar {
+    margin-top: 4.2rem; }
+
+  .header .navbar-fixed-top.navbar-absolute .navbar-header {
+    float: right;
+    text-align: right; }
+    .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse {
+      margin-top: 0;
+      background: none; } }
+html {
+  font-size: 62.5%; }
+
+body {
+  min-width: 32rem; }
+
+p {
+  font-family: 'LatoRegular', Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.8rem; }
+
+h2 {
+  font-family: 'LatoRegular', Arial, Helvetica, sans-serif;
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  margin-bottom: 1.4rem;
+  margin-top: 0; }
+
+.btn {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #1bbc9b;
+  text-transform: uppercase;
+  display: inline-block;
+  position: relative;
+  line-height: 1.7rem;
+  padding: 1.3rem;
+  margin-bottom: 5.2rem;
+  border-radius: 0;
+  font-family: 'LatoBold', Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700; }
+  .btn:hover {
+    color: #fff; }
+
+.container {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin: 0;
+  width: 100%; }
+
+.clear-both {
+  clear: both; }
+
+.header {
+  padding: 2.6rem 0 2.2rem;
+  position: relative; }
+  .header .logo {
+    background: url("../images/sprite-images.png") no-repeat -0.5rem -38.5rem;
+    height: 4.7rem;
+    position: relative;
+    width: 20.6rem; }
+    .header .logo a {
+      display: block;
+      height: 100%;
+      overflow: hidden;
+      text-indent: -999rem;
+      width: 100%; }
+  .header .navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+    margin-top: 2rem;
+    min-height: 0; }
+  .header .navbar-fixed-top.navbar-absolute {
+    background: none;
+    border: none; }
+    .header .navbar-fixed-top.navbar-absolute .navbar-header {
+      float: none; }
+      .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-toggle {
+        background-color: rgba(68, 68, 68, 0.61);
+        margin-top: 2.6rem; }
+      .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse {
+        margin-top: 9rem;
+        background-color: #fff;
+        text-align: center; }
+        .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse .navbar-nav li {
+          cursor: pointer;
+          display: block;
+          margin-left: 3rem;
+          text-transform: uppercase;
+          font-family: 'LatoRegular', Arial, Helvetica, sans-serif;
+          font-size: 1.4rem;
+          font-weight: 400;
+          line-height: 1.8rem; }
+          .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse .navbar-nav li:first-child {
+            margin-left: 0; }
+          .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse .navbar-nav li > a {
+            color: #444;
+            padding: 1.2rem;
+            text-decoration: none; }
+            .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse .navbar-nav li > a:hover, .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse .navbar-nav li > a:active, .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse .navbar-nav li > a:focus {
+              background-color: #1bbc9b;
+              color: #fff; }
+
+.main {
+  position: relative; }
+  .main .banner {
+    height: 54.6rem;
+    position: relative; }
+    .main .banner .table-box {
+      display: table;
+      height: 100%;
+      text-align: center;
+      width: 100%; }
+      .main .banner .table-box .cell-box {
+        color: #fff;
+        display: table-cell;
+        padding: 7.2rem 0 8rem;
+        position: relative; }
+        .main .banner .table-box .cell-box .banner-info {
+          width: 47%;
+          margin: 0 auto; }
+          .main .banner .table-box .cell-box .banner-info .slogan {
+            font-size: 5.5rem;
+            line-height: 5.9rem;
+            margin-bottom: 3.5rem; }
+            .main .banner .table-box .cell-box .banner-info .slogan strong {
+              font-family: 'LatoBold', Arial, Helvetica, sans-serif;
+              font-weight: 700; }
+          .main .banner .table-box .cell-box .banner-info p {
+            font-size: 1.8rem;
+            line-height: 2.6rem;
+            margin-bottom: 5.7rem; }
+          .main .banner .table-box .cell-box .banner-info .slogan, .main .banner .table-box .cell-box .banner-info p {
+            font-family: 'LatoLight', Arial, Helvetica, sans-serif;
+            font-weight: 300;
+            color: #fff; }
+          .main .banner .table-box .cell-box .banner-info .anchor a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 5rem; }
+    .main .banner .wrapper {
+      height: 100%;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0; }
+  .main .portfolio {
+    padding: 5.2rem 0 6rem;
+    text-align: center; }
+    .main .portfolio p {
+      margin-bottom: 3.3rem; }
+    .main .portfolio .filters li {
+      display: inline-block;
+      margin-left: 1.5rem; }
+      .main .portfolio .filters li:first-child {
+        margin-left: 0; }
+    .main .portfolio .filters .active span {
+      background-color: #16a086 !important; }
+      .main .portfolio .filters .active span:hover {
+        color: #fff;
+        cursor: default; }
+    .main .portfolio .icons {
+      position: relative;
+      margin: 0 auto;
+      max-width: 120rem; }
+      .main .portfolio .icons li {
+        display: inline-block;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        margin-bottom: 3.4rem;
+        height: 18rem;
+        position: relative;
+        overflow: hidden; }
+        .main .portfolio .icons li .cover {
+          display: none;
+          position: absolute;
+          background-color: rgba(22, 160, 134, 0.75);
+          top: 0;
+          left: 0;
+          height: 100%;
+          width: 100%;
+          border-radius: 50%; }
+          .main .portfolio .icons li .cover a {
+            text-decoration: none;
+            color: #fff;
+            cursor: pointer;
+            position: relative;
+            font-family: 'LatoRegular', Arial, Helvetica, sans-serif;
+            font-weight: 400; }
+            .main .portfolio .icons li .cover a h3 {
+              size: 1.8rem;
+              line-height: 2.2rem;
+              margin-bottom: .7rem;
+              margin-top: 0; }
+            .main .portfolio .icons li .cover a p {
+              size: 1.4rem;
+              line-height: 1.8rem;
+              margin-bottom: .5rem; }
+            .main .portfolio .icons li .cover a .fa-search {
+              font-size: 2.1rem;
+              padding-top: 1.2rem;
+              padding-left: 0.2rem;
+              margin-bottom: 1.4rem;
+              margin-top: 3rem;
+              height: 4.5rem;
+              width: 4.3rem;
+              border-radius: 50%;
+              background-color: rgba(68, 68, 68, 0.61); }
+        .main .portfolio .icons li:hover .cover {
+          display: block; }
+      .main .portfolio .icons .photo {
+        width: 17rem;
+        background: url("../images/sprite-images.png") no-repeat -0.5rem -0.5rem; }
+      .main .portfolio .icons .sound {
+        width: 17.7rem;
+        background: url("../images/sprite-images.png") no-repeat -18.5rem -0.5rem; }
+      .main .portfolio .icons .cogwheel {
+        width: 17.9rem;
+        background: url("../images/sprite-images.png") no-repeat -0.5rem -19.5rem; }
+      .main .portfolio .icons .safari {
+        width: 17.8rem;
+        background: url("../images/sprite-images.png") no-repeat -19.4rem -19.5rem; }
+      .main .portfolio .icons .call {
+        width: 17rem;
+        background: url("../images/sprite-images.png") no-repeat -37.2rem -0.5rem; }
+      .main .portfolio .icons .bubbles {
+        width: 17.6rem;
+        background: url("../images/sprite-images.png") no-repeat -38.2rem -19.5rem; }
+  .main .portfolio, .main .contacts {
+    position: relative;
+    color: #444; }
+  .main .our-us {
+    position: relative;
+    background-color: #16a086;
+    padding: 5.4rem 0 5.4rem;
+    color: #444; }
+    .main .our-us .heading {
+      color: #fff;
+      text-align: center; }
+    .main .our-us p {
+      margin-bottom: 4.2rem; }
+    .main .our-us .co-workers {
+      font-size: 1.4rem;
+      font-family: 'LatoRegular', Arial, Helvetica, sans-serif;
+      line-height: 1.8rem;
+      text-align: center; }
+      .main .our-us .co-workers li {
+        display: inline-block;
+        width: 22rem;
+        background-color: #fff;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-bottom: 2rem; }
+        .main .our-us .co-workers li .avatar {
+          height: 22.8rem;
+          position: relative;
+          margin-bottom: 1.7rem; }
+          .main .our-us .co-workers li .avatar img {
+            height: 100%; }
+          .main .our-us .co-workers li .avatar .social {
+            position: absolute;
+            display: none;
+            background-color: rgba(51, 157, 135, 0.8);
+            left: 50%;
+            top: 50%;
+            color: #fff;
+            padding: .9rem 0.5rem;
+            font-size: 2.9rem;
+            width: 80%;
+            -webkit-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%); }
+            .main .our-us .co-workers li .avatar .social a {
+              color: #fff; }
+            .main .our-us .co-workers li .avatar .social .fa {
+              display: inline-block;
+              margin: 0 .6rem; }
+          .main .our-us .co-workers li .avatar:hover .social {
+            display: block; }
+        .main .our-us .co-workers li h3 {
+          margin-top: 0;
+          margin-bottom: .7rem;
+          font-size: 1.8rem;
+          line-height: 2.2rem; }
+        .main .our-us .co-workers li strong {
+          font-family: 'LatoItalic', Arial, Helvetica, sans-serif;
+          font-weight: 400;
+          margin-bottom: 1.7rem; }
+        .main .our-us .co-workers li p {
+          margin-bottom: .7rem;
+          padding-left: 1rem;
+          padding-right: 1rem;
+          text-align: left; }
+  .main .contacts {
+    background-color: #ecf0f1;
+    padding: 4.8rem 0 4.7rem;
+    overflow: hidden; }
+    .main .contacts form {
+      color: #999;
+      overflow: hidden;
+      font-size: 1.4rem;
+      font-family: 'LatoItalic', Arial, Helvetica, sans-serif;
+      line-height: 1.8rem;
+      position: relative; }
+      .main .contacts form .left, .main .contacts form .right {
+        width: 48%;
+        margin-bottom: 2.1rem; }
+      .main .contacts form .left {
+        margin-right: 1rem;
+        float: left; }
+      .main .contacts form .right {
+        margin-left: 1rem;
+        float: right; }
+      .main .contacts form .holder input, .main .contacts form .holder textarea {
+        box-sizing: border-box;
+        padding: 1.2rem 1.7rem;
+        border: 0.2rem solid #bec3c7;
+        width: 100%; }
+      .main .contacts form .holder textarea {
+        margin-bottom: 2.3rem; }
+      .main .contacts form button[type=submit].btn {
+        min-width: 11.4rem;
+        float: right;
+        box-sizing: border-box;
+        margin-bottom: .1rem; }
+    .main .contacts .heading {
+      text-align: center; }
+      .main .contacts .heading p {
+        margin-bottom: 5rem; }
+    .main .contacts .contact-holder h3 {
+      margin-top: 0;
+      margin-bottom: 2rem;
+      text-transform: uppercase;
+      font-family: 'LatoRegular', Arial, Helvetica, sans-serif;
+      font-size: 1.4rem;
+      font-weight: 400;
+      color: #444; }
+    .main .contacts .contact-holder .address-list {
+      font-family: 'LatoRegular', Arial, Helvetica, sans-serif;
+      font-size: 1.4rem;
+      font-weight: 400;
+      line-height: 2rem;
+      color: #444;
+      width: 19.3rem; }
+      .main .contacts .contact-holder .address-list li {
+        margin-bottom: 1.2rem;
+        position: relative;
+        padding-left: .6rem; }
+        .main .contacts .contact-holder .address-list li .fa {
+          position: absolute;
+          left: -1.2rem;
+          top: .3rem; }
+
+.footer {
+  background-color: #2d3e50;
+  color: #fff;
+  padding: 2.3rem 0 2rem; }
+  .footer .anchor {
+    background-color: #1bbc9b;
+    padding: 1.5rem 1.3rem;
+    position: relative;
+    float: right;
+    display: block;
+    font-size: 2rem;
+    color: #fff; }
+  .footer ul {
+    font-family: 'LatoRegular', Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    float: left;
+    margin-top: 1.5rem; }
+    .footer ul li {
+      display: inline-block;
+      margin-left: .6rem;
+      padding-left: .9rem;
+      position: relative; }
+      .footer ul li:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: .1rem;
+        display: block;
+        background-color: #fff; }
+      .footer ul li:first-child:after {
+        display: none; }
+      .footer ul li:first-child {
+        margin-left: 0; }
+
+/*# sourceMappingURL=common.css.map */

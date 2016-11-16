@@ -1,0 +1,12 @@
+@media (min-width: 768px) {
+  .header .navbar {
+    margin-top: 4.2rem; }
+
+  .header .navbar-fixed-top.navbar-absolute .navbar-header {
+    float: right;
+    text-align: right; }
+    .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse {
+      margin-top: 0;
+      background: none; } }
+
+/*# sourceMappingURL=media.css.map */
