@@ -1,4 +1,46 @@
+@media (min-width: 420px) {
+  .footer ul li {
+    margin-left: .6rem; }
+    .footer ul li:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      width: .1rem;
+      display: block;
+      background-color: #fff; }
+  .footer .anchor {
+    float: right; } }
+@media (min-width: 450px) {
+  .main .portfolio .filters li {
+    display: inline-block; } }
+@media (min-width: 620px) {
+  p {
+    font-size: 1.5rem;
+    line-height: 1.8rem; }
+
+  .main .contacts .contact-holder .address-list {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    width: 19.3rem; }
+  .main .contacts .contact-holder h3 {
+    font-size: 1.4rem;
+    line-height: 1.8rem; }
+  .main .contacts form {
+    font-size: 1.4rem;
+    line-height: 1.8rem; }
+  .main .our-us .co-workers li h3 {
+    font-size: 1.8rem;
+    line-height: 2.2rem; }
+  .main .our-us .co-workers li strong {
+    font-size: 1.4rem;
+    line-height: 1.8rem; } }
 @media (min-width: 768px) {
+  p {
+    font-size: 1.4rem;
+    line-height: 1.8rem; }
+
   .header .navbar {
     margin-top: 4.2rem; }
 
@@ -7,7 +49,35 @@
     text-align: right; }
     .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse {
       margin-top: 0;
-      background: none; } }
+      background: none; }
+      .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse .navbar-nav li {
+        margin-right: 0; }
+        .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse .navbar-nav li:first-child {
+          margin: 0; }
+
+  .main .portfolio .filters li .btn {
+    margin-bottom: 5.2rem; }
+  .main .banner .table-box .cell-box {
+    padding-top: 7.2rem; }
+    .main .banner .table-box .cell-box .banner-info .slogan {
+      margin-bottom: 3.5rem;
+      font-size: 5.5rem;
+      line-height: 5.9rem; }
+    .main .banner .table-box .cell-box .banner-info p {
+      margin-bottom: 5.7rem; }
+    .main .banner .table-box .cell-box .banner-info .btn {
+      margin-bottom: 5.2rem; }
+  .main .contacts form button[type=submit].btn {
+    float: right;
+    margin-bottom: 1rem; } }
+@media (min-width: 1200px) {
+  .header .navbar {
+    margin-top: 0; }
+  .header .navbar-fixed-top {
+    top: 2rem; }
+
+  .main .contacts form .left, .main .contacts form .right {
+    width: 48%; } }
 html {
   font-size: 62.5%; }
 
@@ -16,9 +86,9 @@ body {
 
 p {
   font-family: 'LatoRegular', Arial, Helvetica, sans-serif;
-  font-size: 1.4rem;
+  font-size: 3.3vmax;
   font-weight: 400;
-  line-height: 1.8rem; }
+  line-height: 4.5vmax; }
 
 h2 {
   font-family: 'LatoRegular', Arial, Helvetica, sans-serif;
@@ -74,34 +144,46 @@ h2 {
     margin-bottom: 0;
     margin-top: 2rem;
     min-height: 0; }
-  .header .navbar-fixed-top.navbar-absolute {
-    background: none;
-    border: none; }
-    .header .navbar-fixed-top.navbar-absolute .navbar-header {
-      float: none; }
-      .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-toggle {
-        background-color: rgba(68, 68, 68, 0.61);
-        margin-top: 2.6rem; }
-      .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse {
-        margin-top: 9rem;
-        background-color: #fff;
-        text-align: center; }
-        .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse .navbar-nav li {
-          cursor: pointer;
-          display: block;
-          margin-left: 3rem;
-          text-transform: uppercase;
-          font-family: 'LatoRegular', Arial, Helvetica, sans-serif;
-          font-size: 1.4rem;
-          font-weight: 400;
-          line-height: 1.8rem; }
-          .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse .navbar-nav li:first-child {
-            margin-left: 0; }
-          .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse .navbar-nav li > a {
-            color: #444;
-            padding: 1.2rem;
-            text-decoration: none; }
-            .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse .navbar-nav li > a:hover, .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse .navbar-nav li > a:active, .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse .navbar-nav li > a:focus {
+  .header .navbar-fixed-top {
+    position: absolute;
+    top: -10rem; }
+    .header .navbar-fixed-top.navbar-absolute {
+      background: none;
+      border: none; }
+      .header .navbar-fixed-top.navbar-absolute .navbar-header {
+        float: none; }
+        .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-toggle {
+          background-color: rgba(68, 68, 68, 0.61);
+          margin-top: 2.6rem;
+          margin-right: -0.8rem; }
+        .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse {
+          margin-top: 9rem;
+          background-color: #fff;
+          text-align: center; }
+          .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse .navbar-nav li {
+            cursor: pointer;
+            display: block;
+            margin-left: 3rem;
+            margin-right: 3rem;
+            text-transform: uppercase;
+            font-family: 'LatoRegular', Arial, Helvetica, sans-serif;
+            font-size: 1.4rem;
+            font-weight: 400;
+            line-height: 1.8rem; }
+            .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse .navbar-nav li:first-child {
+              margin-top: 1rem;
+              margin-bottom: 1rem; }
+            .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse .navbar-nav li a, .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse .navbar-nav li span {
+              color: #444;
+              padding: 1.2rem;
+              text-decoration: none;
+              line-height: 1.8rem; }
+              .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse .navbar-nav li a:hover, .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse .navbar-nav li a:active, .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse .navbar-nav li a:focus, .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse .navbar-nav li span:hover, .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse .navbar-nav li span:active, .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse .navbar-nav li span:focus {
+                background-color: #1bbc9b;
+                color: #fff; }
+            .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse .navbar-nav li span {
+              display: block; }
+            .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse .navbar-nav li .active {
               background-color: #1bbc9b;
               color: #fff; }
 
@@ -118,26 +200,28 @@ h2 {
       .main .banner .table-box .cell-box {
         color: #fff;
         display: table-cell;
-        padding: 7.2rem 0 8rem;
+        padding: 2.2rem 0 8rem;
         position: relative; }
         .main .banner .table-box .cell-box .banner-info {
           width: 47%;
           margin: 0 auto; }
           .main .banner .table-box .cell-box .banner-info .slogan {
-            font-size: 5.5rem;
-            line-height: 5.9rem;
-            margin-bottom: 3.5rem; }
+            font-size: 7.5vmax;
+            line-height: 7.5vmax;
+            margin-bottom: 1rem; }
             .main .banner .table-box .cell-box .banner-info .slogan strong {
               font-family: 'LatoBold', Arial, Helvetica, sans-serif;
               font-weight: 700; }
           .main .banner .table-box .cell-box .banner-info p {
             font-size: 1.8rem;
             line-height: 2.6rem;
-            margin-bottom: 5.7rem; }
+            margin-bottom: 1.7rem; }
           .main .banner .table-box .cell-box .banner-info .slogan, .main .banner .table-box .cell-box .banner-info p {
             font-family: 'LatoLight', Arial, Helvetica, sans-serif;
             font-weight: 300;
             color: #fff; }
+          .main .banner .table-box .cell-box .banner-info .btn {
+            margin-bottom: 1.2rem; }
           .main .banner .table-box .cell-box .banner-info .anchor a {
             text-decoration: none;
             color: #fff;
@@ -154,8 +238,10 @@ h2 {
     .main .portfolio p {
       margin-bottom: 3.3rem; }
     .main .portfolio .filters li {
-      display: inline-block;
+      display: block;
       margin-left: 1.5rem; }
+      .main .portfolio .filters li .btn {
+        margin-bottom: 1.2rem; }
       .main .portfolio .filters li:first-child {
         margin-left: 0; }
     .main .portfolio .filters .active span {
@@ -284,12 +370,14 @@ h2 {
         .main .our-us .co-workers li h3 {
           margin-top: 0;
           margin-bottom: .7rem;
-          font-size: 1.8rem;
-          line-height: 2.2rem; }
+          font-size: 5vmax;
+          line-height: 5.5vmax; }
         .main .our-us .co-workers li strong {
           font-family: 'LatoItalic', Arial, Helvetica, sans-serif;
           font-weight: 400;
-          margin-bottom: 1.7rem; }
+          margin-bottom: 1.7rem;
+          font-size: 3vmax;
+          line-height: 4vmax; }
         .main .our-us .co-workers li p {
           margin-bottom: .7rem;
           padding-left: 1rem;
@@ -297,17 +385,17 @@ h2 {
           text-align: left; }
   .main .contacts {
     background-color: #ecf0f1;
-    padding: 4.8rem 0 4.7rem;
+    padding: 4.8rem 0 4.9rem;
     overflow: hidden; }
     .main .contacts form {
       color: #999;
       overflow: hidden;
-      font-size: 1.4rem;
+      font-size: 3.5vmax;
       font-family: 'LatoItalic', Arial, Helvetica, sans-serif;
-      line-height: 1.8rem;
+      line-height: 4vmax;
       position: relative; }
       .main .contacts form .left, .main .contacts form .right {
-        width: 48%;
+        width: 100%;
         margin-bottom: 2.1rem; }
       .main .contacts form .left {
         margin-right: 1rem;
@@ -324,9 +412,9 @@ h2 {
         margin-bottom: 2.3rem; }
       .main .contacts form button[type=submit].btn {
         min-width: 11.4rem;
-        float: right;
+        float: left;
         box-sizing: border-box;
-        margin-bottom: .1rem; }
+        margin-bottom: 4rem; }
     .main .contacts .heading {
       text-align: center; }
       .main .contacts .heading p {
@@ -336,16 +424,17 @@ h2 {
       margin-bottom: 2rem;
       text-transform: uppercase;
       font-family: 'LatoRegular', Arial, Helvetica, sans-serif;
-      font-size: 1.4rem;
+      font-size: 3.5vmax;
       font-weight: 400;
-      color: #444; }
+      color: #444;
+      line-height: 4vmax; }
     .main .contacts .contact-holder .address-list {
       font-family: 'LatoRegular', Arial, Helvetica, sans-serif;
-      font-size: 1.4rem;
+      font-size: 3vmax;
       font-weight: 400;
-      line-height: 2rem;
+      line-height: 4.3vmax;
       color: #444;
-      width: 19.3rem; }
+      width: 25rem; }
       .main .contacts .contact-holder .address-list li {
         margin-bottom: 1.2rem;
         position: relative;
@@ -363,7 +452,7 @@ h2 {
     background-color: #1bbc9b;
     padding: 1.5rem 1.3rem;
     position: relative;
-    float: right;
+    float: left;
     display: block;
     font-size: 2rem;
     color: #fff; }
@@ -376,18 +465,9 @@ h2 {
     margin-top: 1.5rem; }
     .footer ul li {
       display: inline-block;
-      margin-left: .6rem;
+      margin-left: 0;
       padding-left: .9rem;
       position: relative; }
-      .footer ul li:after {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        width: .1rem;
-        display: block;
-        background-color: #fff; }
       .footer ul li:first-child:after {
         display: none; }
       .footer ul li:first-child {
