@@ -42,7 +42,7 @@
     line-height: 1.8rem; }
 
   .header .navbar {
-    margin-top: 4.2rem; }
+    margin-top: 4.6rem; }
 
   .header .navbar-fixed-top.navbar-absolute .navbar-header {
     float: right;
@@ -56,17 +56,17 @@
           margin: 0; }
 
   .main .portfolio .filters li .btn {
-    margin-bottom: 5.2rem; }
+    margin-bottom: 3.8rem; }
   .main .banner .table-box .cell-box {
     padding-top: 7.2rem; }
     .main .banner .table-box .cell-box .banner-info .slogan {
-      margin-bottom: 3.5rem;
+      margin-bottom: 2.1rem;
       font-size: 5.5rem;
-      line-height: 5.9rem; }
+      line-height: 5.7rem; }
     .main .banner .table-box .cell-box .banner-info p {
-      margin-bottom: 5.7rem; }
+      margin-bottom: 4.4rem; }
     .main .banner .table-box .cell-box .banner-info .btn {
-      margin-bottom: 5.2rem; }
+      margin-bottom: 4rem; }
   .main .contacts form button[type=submit].btn {
     float: right;
     margin-bottom: 1rem; } }
@@ -95,7 +95,7 @@ h2 {
   font-size: 2.8rem;
   font-weight: 400;
   line-height: 3.2rem;
-  margin-bottom: 1.4rem;
+  margin-bottom: 1rem;
   margin-top: 0; }
 
 .btn {
@@ -107,7 +107,7 @@ h2 {
   display: inline-block;
   position: relative;
   line-height: 1.7rem;
-  padding: 1.3rem;
+  padding: 0.9rem 2rem;
   margin-bottom: 5.2rem;
   border-radius: 0;
   font-family: 'LatoBold', Arial, Helvetica, sans-serif;
@@ -126,7 +126,7 @@ h2 {
   clear: both; }
 
 .header {
-  padding: 2.6rem 0 2.2rem;
+  padding: 0.4rem 0 1.2rem;
   position: relative; }
   .header .logo {
     background: url("../images/sprite-images.png") no-repeat -0.5rem -38.5rem;
@@ -163,7 +163,7 @@ h2 {
           .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse .navbar-nav li {
             cursor: pointer;
             display: block;
-            margin-left: 3rem;
+            margin-left: 1.7rem;
             margin-right: 3rem;
             text-transform: uppercase;
             font-family: 'LatoRegular', Arial, Helvetica, sans-serif;
@@ -175,7 +175,7 @@ h2 {
               margin-bottom: 1rem; }
             .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse .navbar-nav li a, .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse .navbar-nav li span {
               color: #444;
-              padding: 1.2rem;
+              padding: 1rem;
               text-decoration: none;
               line-height: 1.8rem; }
               .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse .navbar-nav li a:hover, .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse .navbar-nav li a:active, .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse .navbar-nav li a:focus, .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse .navbar-nav li span:hover, .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse .navbar-nav li span:active, .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse .navbar-nav li span:focus {
@@ -233,15 +233,16 @@ h2 {
       right: 0;
       top: 0; }
   .main .portfolio {
-    padding: 5.2rem 0 6rem;
+    padding: 5rem 0 6rem;
     text-align: center; }
     .main .portfolio p {
       margin-bottom: 3.3rem; }
     .main .portfolio .filters li {
       display: block;
-      margin-left: 1.5rem; }
+      margin-left: 2.1rem; }
       .main .portfolio .filters li .btn {
-        margin-bottom: 1.2rem; }
+        margin-bottom: 1.2rem;
+        padding: 0.9rem 1rem; }
       .main .portfolio .filters li:first-child {
         margin-left: 0; }
     .main .portfolio .filters .active span {
@@ -255,9 +256,9 @@ h2 {
       max-width: 120rem; }
       .main .portfolio .icons li {
         display: inline-block;
-        margin-left: 4rem;
-        margin-right: 4rem;
-        margin-bottom: 3.4rem;
+        margin-left: 3rem;
+        margin-right: 3.3rem;
+        margin-bottom: 1.2rem;
         height: 18rem;
         position: relative;
         overflow: hidden; }
@@ -322,7 +323,7 @@ h2 {
   .main .our-us {
     position: relative;
     background-color: #16a086;
-    padding: 5.4rem 0 5.4rem;
+    padding: 5.4rem 0 4.2rem;
     color: #444; }
     .main .our-us .heading {
       color: #fff;
@@ -369,7 +370,7 @@ h2 {
             display: block; }
         .main .our-us .co-workers li h3 {
           margin-top: 0;
-          margin-bottom: .7rem;
+          margin-bottom: .1rem;
           font-size: 5vmax;
           line-height: 5.5vmax; }
         .main .our-us .co-workers li strong {
@@ -377,15 +378,17 @@ h2 {
           font-weight: 400;
           margin-bottom: 1.7rem;
           font-size: 3vmax;
-          line-height: 4vmax; }
+          line-height: 4vmax;
+          display: block; }
         .main .our-us .co-workers li p {
-          margin-bottom: .7rem;
+          margin-bottom: 2rem;
           padding-left: 1rem;
           padding-right: 1rem;
-          text-align: left; }
+          text-align: left;
+          line-height: 1.9rem; }
   .main .contacts {
     background-color: #ecf0f1;
-    padding: 4.8rem 0 4.9rem;
+    padding: 4.8rem 0 5rem;
     overflow: hidden; }
     .main .contacts form {
       color: #999;
@@ -409,7 +412,8 @@ h2 {
         border: 0.2rem solid #bec3c7;
         width: 100%; }
       .main .contacts form .holder textarea {
-        margin-bottom: 2.3rem; }
+        margin-bottom: 2.3rem;
+        height: 15.2rem; }
       .main .contacts form button[type=submit].btn {
         min-width: 11.4rem;
         float: left;
@@ -421,7 +425,8 @@ h2 {
         margin-bottom: 5rem; }
     .main .contacts .contact-holder h3 {
       margin-top: 0;
-      margin-bottom: 2rem;
+      margin-bottom: 1.6rem;
+      margin-top: -0.4rem;
       text-transform: uppercase;
       font-family: 'LatoRegular', Arial, Helvetica, sans-serif;
       font-size: 3.5vmax;
@@ -450,7 +455,7 @@ h2 {
   padding: 2.3rem 0 2rem; }
   .footer .anchor {
     background-color: #1bbc9b;
-    padding: 1.5rem 1.3rem;
+    padding: 1.3rem 1.3rem;
     position: relative;
     float: left;
     display: block;
@@ -462,7 +467,7 @@ h2 {
     font-weight: 400;
     line-height: 1.8rem;
     float: left;
-    margin-top: 1.5rem; }
+    margin-top: 1.3rem; }
     .footer ul li {
       display: inline-block;
       margin-left: 0;

@@ -42,7 +42,7 @@
     line-height: 1.8rem; }
 
   .header .navbar {
-    margin-top: 4.2rem; }
+    margin-top: 4.6rem; }
 
   .header .navbar-fixed-top.navbar-absolute .navbar-header {
     float: right;
@@ -56,17 +56,17 @@
           margin: 0; }
 
   .main .portfolio .filters li .btn {
-    margin-bottom: 5.2rem; }
+    margin-bottom: 3.8rem; }
   .main .banner .table-box .cell-box {
     padding-top: 7.2rem; }
     .main .banner .table-box .cell-box .banner-info .slogan {
-      margin-bottom: 3.5rem;
+      margin-bottom: 2.1rem;
       font-size: 5.5rem;
-      line-height: 5.9rem; }
+      line-height: 5.7rem; }
     .main .banner .table-box .cell-box .banner-info p {
-      margin-bottom: 5.7rem; }
+      margin-bottom: 4.4rem; }
     .main .banner .table-box .cell-box .banner-info .btn {
-      margin-bottom: 5.2rem; }
+      margin-bottom: 4rem; }
   .main .contacts form button[type=submit].btn {
     float: right;
     margin-bottom: 1rem; } }

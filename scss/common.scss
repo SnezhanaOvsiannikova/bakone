@@ -22,7 +22,7 @@ h2 {
 		weight: 400;
 	}
 	line-height: 3.2rem;
-	margin-bottom: 1.4rem;
+	margin-bottom: 1rem;
 	margin-top: 0;
 }
 .btn {
@@ -34,7 +34,7 @@ h2 {
 	display: inline-block;
 	position: relative;
 	line-height: 1.7rem;
-	padding: 1.3rem;
+	padding: 0.9rem 2rem;
 	margin-bottom: 5.2rem;
 	border-radius: 0;
 	font: {
@@ -58,7 +58,7 @@ h2 {
 
 //START HEADER
 .header {
-	padding: 2.6rem 0 2.2rem;
+	padding: 0.4rem 0 1.2rem;
 	position: relative;
 	.logo {
 		background: $bgImg no-repeat -.5rem -38.5rem;
@@ -100,7 +100,7 @@ h2 {
 						li {
 							cursor: pointer;
 							display: block;
-							margin-left: 3rem;
+							margin-left: 1.7rem;
 							margin-right: 3rem;
 							text-transform: uppercase;
 							font: {
@@ -115,7 +115,7 @@ h2 {
 							}
 							a, span {
 								color: $darkGray;
-								padding: 1.2rem;
+								padding: 1rem;
 								text-decoration: none;
 								line-height: 1.8rem;
 								&:hover, &:active, &:focus {
@@ -201,7 +201,7 @@ h2 {
 		}
 	}
 	.portfolio {
-		padding: 5.2rem 0 6rem;
+		padding: 5rem 0 6rem;
 		text-align: center;
 		p {
 			margin-bottom: 3.3rem;
@@ -209,9 +209,10 @@ h2 {
 		.filters {
 			li {
 				display: block;
-				margin-left: 1.5rem;
+				margin-left: 2.1rem;
 				.btn {
 					margin-bottom: 1.2rem;
+					padding: 0.9rem 1rem;
 				}
 				&:first-child {
 					margin-left: 0;
@@ -231,9 +232,9 @@ h2 {
 			max-width: 120rem;
 			li {
 				display: inline-block;
-				margin-left: 4rem;
-				margin-right: 4rem;
-				margin-bottom: 3.4rem;
+				margin-left: 3rem;
+				margin-right: 3.3rem;
+				margin-bottom: 1.2rem;
 				height: 18rem;
 				position: relative;
 				overflow: hidden;
@@ -316,7 +317,7 @@ h2 {
 	.our-us {
 		position: relative;
 		background-color: $darkSeaGreen;
-		padding: 5.4rem 0 5.4rem;
+		padding: 5.4rem 0 4.2rem;
 		color: $darkGray;
 		.heading {
 			color: $white;
@@ -371,7 +372,7 @@ h2 {
 				}
 				h3 {
 					margin-top: 0;
-					margin-bottom: .7rem;
+					margin-bottom: .1rem;
 					font-size: 5vmax;
 					line-height: 5.5vmax;
 				}
@@ -381,19 +382,21 @@ h2 {
 					margin-bottom: 1.7rem;
 					font-size: 3vmax;
 					line-height: 4vmax;
+					display: block;
 				}
 				p {
-					margin-bottom: .7rem;
+					margin-bottom: 2rem;
 					padding-left: 1rem;
 					padding-right: 1rem;
 					text-align: left;
+					line-height: 1.9rem;
 				}
 			}
 		}
 	}
 	.contacts {
 		background-color: $gray;
-		padding: 4.8rem 0 4.9rem;
+		padding: 4.8rem 0 5rem;
 		overflow: hidden;
 		form {
 			color: $smoky;
@@ -425,6 +428,7 @@ h2 {
 				}
 				textarea {
 					margin-bottom: 2.3rem;
+					height: 15.2rem;
 				}
 			}
 			button[type=submit].btn {
@@ -443,7 +447,8 @@ h2 {
 		.contact-holder {
 			h3 {
 				margin-top: 0;
-				margin-bottom: 2rem;
+				margin-bottom: 1.6rem;
+				margin-top: -0.4rem;
 				text-transform: uppercase;
 				font: {
 					family: 'LatoRegular', Arial, Helvetica, sans-serif;
@@ -482,7 +487,7 @@ h2 {
 	padding: 2.3rem 0 2rem;
 	.anchor {
 		background-color: $seaGreen;
-		padding: 1.5rem 1.3rem;
+		padding: 1.3rem 1.3rem;
 		position: relative;
 		float: left;
 		display: block;
@@ -497,7 +502,7 @@ h2 {
 		}
 		line-height: 1.8rem;
 		float: left;
-		margin-top: 1.5rem;
+		margin-top: 1.3rem;
 		li {
 			display: inline-block;
 			margin-left: 0;
