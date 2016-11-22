@@ -1,6 +1,5 @@
 (function() {
-    $('.imgScale').imageScale({
-        
+    $('.imgScale').imageScale({ 
         align: 'center'
     });
 }());
