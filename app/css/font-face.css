@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'LatoRegular';
+  src: url("../fonts/lato-regular/lato-regular-webfont.eot");
+  src: url("../fonts/lato-regular/lato-regular-webfont.woff2") format("woff2"), url("../fonts/lato-regular/lato-regular-webfont.woff") format("woff"), url("../fonts/lato-regular/Lato-Regular.ttf") format("truetype"), url("../fonts/lato-light/lato-regular-webfont.svg") format("svg"); }
+
+@font-face {
+  font-family: 'LatoBold';
+  src: url("../fonts/lato-bold/lato-bold-webfont.eot");
+  src: url("../fonts/lato-bold/lato-bold-webfont.woff2") format("woff2"), url("../fonts/lato-bold/lato-bold-webfont.woff") format("woff"), url("../fonts/lato-bold/Lato-Bold.ttf") format("truetype"), url("../fonts/lato-bold/lato-bold-webfont.svg") format("svg"); }
+
+@font-face {
+  font-family: 'LatoLight';
+  src: url("../fonts/lato-light/lato-light-webfont.eot");
+  src: url("../fonts/lato-light/lato-light-webfont.woff2") format("woff2"), url("../fonts/lato-light/lato-light-webfont.woff") format("woff"), url("../fonts/lato-italic/Lato-Light.ttf") format("truetype"), url("../fonts/lato-light/lato-light-webfont.svg") format("svg"); }
+
+@font-face {
+  font-family: 'LatoItalic';
+  src: url("../fonts/lato-italic/lato-italic-webfont.eot");
+  src: url("../fonts/lato-italic/lato-italic-webfont.woff2") format("woff2"), url("../fonts/lato-italic/lato-italic-webfont.woff") format("woff"), url("../fonts/lato-italic/Lato-Italic.ttf") format("truetype"), url("../fonts/lato-italic/lato-italic-webfont.svg") format("svg"); }
