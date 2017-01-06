@@ -1,0 +1,32 @@
+body.ie {
+	.main .portfolio .icons {
+		li {
+			height: 180px;
+			&.photo {
+				background-position: -43px -5px;
+			}
+			&.sound {
+			background-position: -223px -5px;
+			}
+			&.cogwheel {
+				background-position: -5px -195px;
+			}
+			&.safari {
+				background-position: -194px -195px;
+			}
+			&.call {
+				background-position: -412px -5px;
+			}
+			&.bubbles {
+				background-position: -382px -195px;
+				width: 176px;
+			}
+			&.photo, &.call {
+				width: 170px;
+			}
+			&.sound, &.cogwheel, &.safari {
+				width: 179px;
+			}
+		}
+	}
+}

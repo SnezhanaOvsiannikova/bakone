@@ -73,12 +73,12 @@
         margin-bottom: 3rem; }
   .main .contacts form button[type=submit].btn {
     float: right;
-    margin-bottom: 1rem; } }
+    margin-bottom: 1rem; }
+  .main .contacts form .left, .main .contacts form .right {
+    width: 47%; } }
 
 @media (min-width: 1200px) {
   .header .navbar {
     margin-top: 0; }
   .header .navbar-fixed-top {
-    top: 2rem; }
-  .main .contacts form .left, .main .contacts form .right {
-    width: 48%; } }
+    top: 2rem; } }

@@ -1,6 +1,6 @@
 @import "variables.scss";
 @import "media.scss";
-
+@import "ie.scss";
 html {
 	font-size: $mainSize;
 }
@@ -77,7 +77,7 @@ a {
 		background: $bgImg no-repeat -.5rem -38.5rem;
 		height: 4.7rem;
 		position: relative;
-		width: 20.6rem;
+		width: 20.8rem;
 		a {
 			display: block;
 			height: 100%;
@@ -206,6 +206,11 @@ a {
 							color: $white;
 							font-size: 5rem;
 						}
+						&:hover {
+							a {
+								color: $grey;
+							}
+						}
 					}
 				}
 			}
@@ -249,20 +254,24 @@ a {
 			max-width: 120rem;
 			li {
 				display: inline-block;
-				margin-left: 3rem;
+				margin-left: 2rem;
 				margin-right: 3.3rem;
 				margin-bottom: 1.2rem;
 				height: 18rem;
 				position: relative;
 				overflow: hidden;
 				.cover {
-					display: none;
+					opacity: 0;
 					position: absolute;
 					background-color: rgba(22, 160, 134, 0.75);
 					top: 0;
 					left: 0;
 					height: 100%;
 					width: 100%;
+					-ms-transition: all 0.7s;
+					-webkit-transition: all 0.7s;
+					-moz-transition: all 0.7s;
+					transition: all 0.7s;
 					-webkit-border-radius: 50%;
 					-moz-border-radius: 50%;
 					border-radius: 50%;
@@ -305,32 +314,33 @@ a {
 					}
 				}
 				&:hover .cover {
-					display: block;
+					opacity: 1;
 				}
 			}
 			.photo {
-				width: 17rem;
-				background:  $bgImg no-repeat -.5rem -.5rem;
+				background:  $bgImg no-repeat -4.3rem -.5rem;
 			}
 			.sound {
-				width: 17.7rem;
-				background:  $bgImg no-repeat -18.5rem -.5rem;
+				background:  $bgImg no-repeat -22.3rem -.5rem;
 			}
 			.cogwheel {
-				width: 17.9rem;
-				background:  $bgImg no-repeat -.5rem -19.5rem;
+				background:  $bgImg no-repeat -5px -195px;
 			}
 			.safari {
-				width: 17.8rem;
 				background:  $bgImg no-repeat -19.4rem -19.5rem;
 			}
 			.call {
-				width: 17rem;
-				background:  $bgImg no-repeat -37.2rem -.5rem;
+				background:  $bgImg no-repeat -41.2rem -.5rem;
 			}
 			.bubbles {
-				width: 17.6rem;
 				background:  $bgImg no-repeat -38.2rem -19.5rem;
+				width: 17.6rem;
+			}
+			.photo, .call {
+				width: 17rem;
+			}
+			.sound, .cogwheel, .safari {
+				width: 17.9rem;
 			}
 		}
 	}
@@ -373,7 +383,7 @@ a {
 					}
 					.social {
 						position: absolute;
-						display: none;
+						opacity: 0;
 						background-color: rgba(51, 157, 135, .8);
 						left: 50%;
 						top: 50%;
@@ -381,6 +391,12 @@ a {
 						padding: .9rem 0.5rem;
 						font-size: 2.9rem;
 						width: 80%;
+						-ms-transition: all 0.7s;
+						-moz-transition: all 0.7s;
+						-webkit-transition: all 0.7s;
+						transition: all 0.7s;
+						-moz-transform: translate(-50%, -50%); 
+						-webkit-transform: translate(-50%, -50%);
 						transform: translate(-50%, -50%);
 						a {
 							color: $white;
@@ -391,7 +407,7 @@ a {
 						}
 					}
 					&:hover .social {
-						display: block;
+						opacity: 1;
 					}
 				}
 				h3 {
@@ -525,6 +541,9 @@ a {
 		display: block;
 		font-size: 2rem;
 		color: $white;
+		&:hover {
+			color: $grey;
+		}
 	}
 	ul {
 		font: {

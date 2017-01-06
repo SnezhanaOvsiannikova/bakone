@@ -73,15 +73,35 @@
         margin-bottom: 3rem; }
   .main .contacts form button[type=submit].btn {
     float: right;
-    margin-bottom: 1rem; } }
+    margin-bottom: 1rem; }
+  .main .contacts form .left, .main .contacts form .right {
+    width: 47%; } }
 
 @media (min-width: 1200px) {
   .header .navbar {
     margin-top: 0; }
   .header .navbar-fixed-top {
-    top: 2rem; }
-  .main .contacts form .left, .main .contacts form .right {
-    width: 48%; } }
+    top: 2rem; } }
+
+body.ie .main .portfolio .icons li {
+  height: 180px; }
+  body.ie .main .portfolio .icons li.photo {
+    background-position: -43px -5px; }
+  body.ie .main .portfolio .icons li.sound {
+    background-position: -223px -5px; }
+  body.ie .main .portfolio .icons li.cogwheel {
+    background-position: -5px -195px; }
+  body.ie .main .portfolio .icons li.safari {
+    background-position: -194px -195px; }
+  body.ie .main .portfolio .icons li.call {
+    background-position: -412px -5px; }
+  body.ie .main .portfolio .icons li.bubbles {
+    background-position: -382px -195px;
+    width: 176px; }
+  body.ie .main .portfolio .icons li.photo, body.ie .main .portfolio .icons li.call {
+    width: 170px; }
+  body.ie .main .portfolio .icons li.sound, body.ie .main .portfolio .icons li.cogwheel, body.ie .main .portfolio .icons li.safari {
+    width: 179px; }
 
 html {
   font-size: 62.5%; }
@@ -148,7 +168,7 @@ a {
     background: url("../images/sprite-images.png") no-repeat -0.5rem -38.5rem;
     height: 4.7rem;
     position: relative;
-    width: 20.6rem; }
+    width: 20.8rem; }
     .header .logo a {
       display: block;
       height: 100%;
@@ -244,6 +264,8 @@ a {
             text-decoration: none;
             color: #fff;
             font-size: 5rem; }
+          .main .banner .table-box .cell-box .banner-info .anchor:hover a {
+            color: #d0d2d3; }
     .main .banner .wrapper {
       height: 100%;
       left: 0;
@@ -273,20 +295,24 @@ a {
       max-width: 120rem; }
       .main .portfolio .icons li {
         display: inline-block;
-        margin-left: 3rem;
+        margin-left: 2rem;
         margin-right: 3.3rem;
         margin-bottom: 1.2rem;
         height: 18rem;
         position: relative;
         overflow: hidden; }
         .main .portfolio .icons li .cover {
-          display: none;
+          opacity: 0;
           position: absolute;
           background-color: rgba(22, 160, 134, 0.75);
           top: 0;
           left: 0;
           height: 100%;
           width: 100%;
+          -ms-transition: all 0.7s;
+          -webkit-transition: all 0.7s;
+          -moz-transition: all 0.7s;
+          transition: all 0.7s;
           -webkit-border-radius: 50%;
           -moz-border-radius: 50%;
           border-radius: 50%; }
@@ -321,25 +347,24 @@ a {
               .main .portfolio .icons li .cover a .fa-search:focus, .main .portfolio .icons li .cover a .fa-search:active {
                 outline: none; }
         .main .portfolio .icons li:hover .cover {
-          display: block; }
+          opacity: 1; }
       .main .portfolio .icons .photo {
-        width: 17rem;
-        background: url("../images/sprite-images.png") no-repeat -0.5rem -0.5rem; }
+        background: url("../images/sprite-images.png") no-repeat -4.3rem -0.5rem; }
       .main .portfolio .icons .sound {
-        width: 17.7rem;
-        background: url("../images/sprite-images.png") no-repeat -18.5rem -0.5rem; }
+        background: url("../images/sprite-images.png") no-repeat -22.3rem -0.5rem; }
       .main .portfolio .icons .cogwheel {
-        width: 17.9rem;
-        background: url("../images/sprite-images.png") no-repeat -0.5rem -19.5rem; }
+        background: url("../images/sprite-images.png") no-repeat -5px -195px; }
       .main .portfolio .icons .safari {
-        width: 17.8rem;
         background: url("../images/sprite-images.png") no-repeat -19.4rem -19.5rem; }
       .main .portfolio .icons .call {
-        width: 17rem;
-        background: url("../images/sprite-images.png") no-repeat -37.2rem -0.5rem; }
+        background: url("../images/sprite-images.png") no-repeat -41.2rem -0.5rem; }
       .main .portfolio .icons .bubbles {
-        width: 17.6rem;
-        background: url("../images/sprite-images.png") no-repeat -38.2rem -19.5rem; }
+        background: url("../images/sprite-images.png") no-repeat -38.2rem -19.5rem;
+        width: 17.6rem; }
+      .main .portfolio .icons .photo, .main .portfolio .icons .call {
+        width: 17rem; }
+      .main .portfolio .icons .sound, .main .portfolio .icons .cogwheel, .main .portfolio .icons .safari {
+        width: 17.9rem; }
   .main .portfolio, .main .contacts {
     position: relative;
     color: #444; }
@@ -373,7 +398,7 @@ a {
             height: 100%; }
           .main .our-us .co-workers li .avatar .social {
             position: absolute;
-            display: none;
+            opacity: 0;
             background-color: rgba(51, 157, 135, 0.8);
             left: 50%;
             top: 50%;
@@ -381,6 +406,12 @@ a {
             padding: .9rem 0.5rem;
             font-size: 2.9rem;
             width: 80%;
+            -ms-transition: all 0.7s;
+            -moz-transition: all 0.7s;
+            -webkit-transition: all 0.7s;
+            transition: all 0.7s;
+            -moz-transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%); }
             .main .our-us .co-workers li .avatar .social a {
               color: #fff; }
@@ -388,7 +419,7 @@ a {
               display: inline-block;
               margin: 0 .6rem; }
           .main .our-us .co-workers li .avatar:hover .social {
-            display: block; }
+            opacity: 1; }
         .main .our-us .co-workers li h3 {
           margin-top: 0;
           margin-bottom: .1rem;
@@ -487,6 +518,8 @@ a {
     display: block;
     font-size: 2rem;
     color: #fff; }
+    .footer .anchor:hover {
+      color: #d0d2d3; }
   .footer ul {
     font-family: 'LatoRegular', Arial, Helvetica, sans-serif;
     font-size: 1.4rem;

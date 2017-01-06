@@ -1,0 +1,19 @@
+body.ie .main .portfolio .icons li {
+  height: 180px; }
+  body.ie .main .portfolio .icons li.photo {
+    background-position: -43px -5px; }
+  body.ie .main .portfolio .icons li.sound {
+    background-position: -223px -5px; }
+  body.ie .main .portfolio .icons li.cogwheel {
+    background-position: -5px -195px; }
+  body.ie .main .portfolio .icons li.safari {
+    background-position: -194px -195px; }
+  body.ie .main .portfolio .icons li.call {
+    background-position: -412px -5px; }
+  body.ie .main .portfolio .icons li.bubbles {
+    background-position: -382px -195px;
+    width: 176px; }
+  body.ie .main .portfolio .icons li.photo, body.ie .main .portfolio .icons li.call {
+    width: 170px; }
+  body.ie .main .portfolio .icons li.sound, body.ie .main .portfolio .icons li.cogwheel, body.ie .main .portfolio .icons li.safari {
+    width: 179px; }

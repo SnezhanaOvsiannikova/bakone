@@ -108,9 +108,14 @@
 				}
 			}
 		}
-		.contacts form button[type=submit].btn {
-			float: right;
-			margin-bottom: 1rem;
+		.contacts form {
+			button[type=submit].btn {
+				float: right;
+				margin-bottom: 1rem;
+			}
+			.left, .right {
+				width: 47%;
+			}
 		}
 	}
 }
@@ -122,11 +127,6 @@
 		}
 		.navbar-fixed-top {
 			top: 2rem;
-		}
-	}
-	.main {
-		.contacts form .left, .contacts form .right {
-			width: 48%;
 		}
 	}
 }
