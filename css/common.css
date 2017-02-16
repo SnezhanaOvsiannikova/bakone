@@ -163,12 +163,14 @@ a {
 
 .header {
   padding: 0.4rem 0 1.2rem;
-  position: relative; }
+  position: relative;
+  z-index: 1; }
   .header .logo {
     background: url("../images/sprite-images.png") no-repeat -0.5rem -38.5rem;
     height: 4.7rem;
     position: relative;
-    width: 20.8rem; }
+    width: 20.8rem;
+    z-index: 2; }
     .header .logo a {
       display: block;
       height: 100%;
@@ -187,7 +189,8 @@ a {
     top: -10rem; }
     .header .navbar-fixed-top.navbar-absolute {
       background: none;
-      border: none; }
+      border: none;
+      z-index: 1; }
       .header .navbar-fixed-top.navbar-absolute .navbar-header {
         float: none; }
         .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-toggle {
@@ -199,7 +202,6 @@ a {
           background-color: #fff;
           text-align: center; }
           .header .navbar-fixed-top.navbar-absolute .navbar-header .navbar-collapse .navbar-nav li {
-            cursor: pointer;
             display: block;
             margin-left: 1.2rem;
             margin-right: 3rem;
