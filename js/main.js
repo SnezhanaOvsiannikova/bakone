@@ -1,8 +1,10 @@
 (function() {
-	$('.imgScale').imageScale({ 
-		align: 'center'
-	});
-}());
+     setTimeout(function() {
+            $('.imgScale').imageScale({
+                   align: 'center'
+            });
+     }, 100);
+} ());
 
 $(document).ready(function(){
 	$(".scroll-to").on("click", function (event) {
